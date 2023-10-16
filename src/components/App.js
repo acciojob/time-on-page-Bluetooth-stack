@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [time, setTime] = useState(0);
+  const [time, setTime] = useState(-1);
   const [isActive, setIsActive] = useState(true);
   const [loadTime, setLoadTime] = useState(Date.now());
 
